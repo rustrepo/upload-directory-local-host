@@ -1,0 +1,20 @@
+[package]
+name = "upload-folders-locally"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
+actix-web = "4.0"
+actix-multipart = "0.4"
+futures-util = "0.3"
+reqwest = { version = "0.11", features = ["blocking"] }
+hmac = "0.12"
+sha2 = "0.10"
+hex = "0.4"
+chrono = "0.4"
+log = "0.4"
+env_logger = "0.9"
+
+
